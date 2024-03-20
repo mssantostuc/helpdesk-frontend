@@ -49,6 +49,9 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    //Forms
+    FormsModule,
+    ReactiveFormsModule,
      // Angular Material
      MatFormFieldModule,
      MatPaginatorModule,
