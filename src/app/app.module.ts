@@ -38,6 +38,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
 //import { ToastrModule } from 'ng6-toastr-notifications';
+import { NgxMaskModule } from 'ngx-mask';
 
 
 @NgModule({
@@ -80,6 +81,7 @@ import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecn
       closeButton: true,
       progressBar: true
     }),
+    NgxMaskModule.forRoot()
      
   ],
   providers: [AuthInterceptorProvider],

@@ -31,3 +31,7 @@ p{
     margin-top: 5rem;
     opacity: .5;
 }
+
+mat-icon{
+    opacity: .8;
+}
